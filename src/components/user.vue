@@ -22,7 +22,7 @@
 
         data(){
             return {
-                user: [
+                user: [ //creamos un arreglo con usuarios
                     {
                         name: "isai",
                         email: "isak@gmail.com",
