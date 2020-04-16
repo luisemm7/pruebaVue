@@ -22,9 +22,9 @@
 
         data(){
             return {
-                user: [ //creamos un arreglo con 3 usuarios
+                user: [ //creamos un arreglo con 3 usuariosss
                     {
-                        name: "isai",
+                        name: "isai", //usuario1
                         email: "isak@gmail.com",
                         contacted: false
                     },
