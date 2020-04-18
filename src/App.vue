@@ -3,11 +3,45 @@
     
     <h1>Hola</h1>
 
-    <test msg= "hola todos!!!!!" />
+    <nav>
+      <ul>
+        <li>
 
-    <!-- usamos el archivo user -->
-    <user/>
+          <router-link to="/test">
+            Test
+          </router-link>
 
+         <!-- lo de arriba es como un href pero de vue
+              <a href="#">Test</a> --> 
+
+        </li>
+
+        <li>
+
+          <router-link to="/">
+            Users
+          </router-link>
+
+          <!-- <a href="#">User</a> -->
+
+        </li>
+      </ul>
+    </nav>
+
+     
+    <hr>
+    <router-view></router-view>
+    
+
+
+    <!--  
+      Esto era antes de usar el router de urls
+      //usamos el archivo test 
+      <test msg= "hola todos!!!!!" />
+
+      //usamos el archivo user
+      <user/>
+    -->
   </div>
 </template>
 
